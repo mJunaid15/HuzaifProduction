@@ -1,0 +1,175 @@
+
+.navbar-brand .logo{
+    height: 40px!important;
+    width: 190px !important;
+   
+}
+
+.navBackGround{
+    background-color: black;
+    
+}
+.nav-item{
+    padding-right: 90px;
+}
+.active a{
+    border-bottom: #f3f3f3 solid 2px;
+    
+}
+
+.navbar .nav-item a{
+    font-size: 14px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: white!important;
+    text-shadow: 2px 2px 9px #6d6d6dc7!important;
+    
+   
+  
+}
+.navbar .nav-item a:hover{
+    color: #a2b29f!important;
+   
+    transition-duration: 0.5s
+    
+}
+/* .collapse show:hover {
+    color: #a89dd1!important;
+    
+    transition-duration: 0.5s
+    
+} */
+
+.bg{
+   
+    background-image: url('./Images/bg2.jpg');
+    background-attachment: fixed;
+    background-size:100% 100%;
+    
+}
+#text_pr{
+    color: wheat;
+    font-size: 11px;
+    margin-bottom:-15px;
+    padding-left: 20px;
+   
+}
+
+#text_h1{
+    font-size: 5.2rem;
+    font-weight: 800;
+    letter-spacing: 3px;
+}
+
+span{
+    font-weight: 400;
+}
+#content{
+   padding-top: 6rem;
+   width: 100%;
+   height: 100%;
+    
+
+}
+
+.hightset{
+    height: 85vh;
+    min-height: 20%;
+   
+}
+.bg2{
+  
+box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+}
+
+.img-fluid{
+    height: 50vh;
+    width: 100%;
+   
+}
+
+/* image gallary slider */
+.imgSET{
+    height: 150px;
+    width: 200px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin: 0px 5px;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+    
+    
+}
+#slider_wrapper{
+  height: 180px;
+    display: flex;
+    
+    align-items: center;
+}
+#slider{
+    height: 170px;
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    align-items: center;
+    transition: all 0.9s;
+ 
+   
+    
+}
+.arrow{
+    
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    
+
+}
+.arrow:hover{
+
+    opacity: .5;
+    width: 35px;
+    height: 35px;
+}
+
+#mainbg{
+    
+    background: linear-gradient( #000000 0%, #111111 100%)!important;
+    box-shadow: 0 4px 12px 0 rgba(0, 0, 0, 0.9), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+}
+/* body{
+    height :1000vh;
+} */
+.progress .progress-bar{
+    width: 0;
+    transition: all ease 0.9s;
+
+}
+#progressBarTitle{
+    font-size: 22px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+}
+.skill a{
+    font-size: 18px;
+    font-weight: 770;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #000000;
+}
+.workWith{
+    font-size: 22px;
+    font-weight: 760;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.imageBorder{
+    border-radius: 5px;
+}
